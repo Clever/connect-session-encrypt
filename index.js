@@ -7,7 +7,7 @@ const crypto       = require('./lib/crypto.js');
 module.exports = class SessionEncrypt extends EventEmitter {
   constructor(key, store) {
     super();
-    if (key.length != 32) {
+    if (Buffer.byteLength(key, 'utf8') != 32) {
       throw new Error("Invalid key length: must be 32 bytes");
     }
 
