@@ -1,0 +1,22 @@
+{
+  "name": "connect-session-encrypt",
+  "version": "0.1.0",
+  "description": "connect session store that encrypts the session data. compatible with any backing store (redis, dynamo, etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clever/connect-session-encrypt.git"
+  },
+  "author": "azylman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clever/connect-session-encrypt/issues"
+  },
+  "homepage": "https://github.com/Clever/connect-session-encrypt#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
