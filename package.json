@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/Clever/connect-session-encrypt#readme",
   "devDependencies": {
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.5"
+  },
+  "dependencies": {
+    "async": "^2.0.1"
   }
 }
